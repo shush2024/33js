@@ -155,3 +155,43 @@
 // }
 // console.log(isFib(8));
 
+// e2)--------------------------------------------------------------------------------------------------------------------
+// function f(num) {
+//     let str = num + "";
+//     str1 = "";
+//     for(let i = 0; i < str.length;i++){
+//         str1 = str[i] + str1
+//     }
+//     if(str === str1){
+//         return true
+//     }else{
+//         return false
+//     }
+// }
+
+// // console.log(f(11));
+
+// let arr = [22322,456,232,34]
+// let sum = 0;
+// let count = 0;
+// for(let i = 0; i < arr.length; i++){
+//     if(f(arr[i]) == true){
+//         sum = sum + arr[i];
+//         count++
+//     }
+// }
+// console.log(sum/count);
+// ------------------------------------------------------------------------------------------------------------------------
+// Գտնել առաջին չկրկնվող էլեմենտը
+
+// function getElement(str) {
+//     for(let i = 0; i < str.length; i++){
+//         if(str.indexOf(str[i]) === str.lastIndexOf(str[i]) ){
+//             return str[i];
+//         }
+//     }
+//     return "chkrknvox element chka"
+// }
+
+// console.log(getElement("chhhghhcg"));
+// --------------------------------------------------------------------------------------------------------------------------
